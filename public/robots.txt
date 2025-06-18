@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://manankanani.in
+
+# Sitemaps
+Sitemap: https://manankanani.in/sitemap.xml

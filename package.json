@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@remixicon/react": "^4.6.0",
+    "@szhsin/react-accordion": "^1.4.1",
+    "animate.css": "^4.1.1",
+    "dotenv": "^16.5.0",
+    "emailjs-com": "^3.2.0",
+    "leaflet": "^1.9.4",
+    "next": "15.3.3",
+    "next-sitemap": "^4.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-photo-view": "^1.2.7",
+    "react-toastify": "^11.0.5",
+    "remixicon": "^4.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
