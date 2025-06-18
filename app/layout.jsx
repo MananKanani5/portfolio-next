@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import { Poppins } from "next/font/google";
-import GoogleAnalytics from "../components/GoogleAnalytics";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
