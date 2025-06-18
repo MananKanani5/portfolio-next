@@ -38,9 +38,9 @@ const AboutSection = () => {
     <section className="w-full relative bg-lighttext z-40">
       <div className="max-w-[1280px] mx-auto py-20 max-sm:px-5">
         <div className="aboutDetails">
-          <h1 className="text-5xl text-center text-secondary font-bold mb-4 animate__animated animate__fadeIn">
+          <h2 className="text-5xl text-center text-secondary font-bold mb-4 animate__animated animate__fadeIn">
             About Me
-          </h1>
+          </h2>
           <p className="animate__animated animate__fadeIn text-pretty text-center">
             On a journey since February 2020, with a rich portfolio of 30+ web
             projects. I continually refine my skills, ensuring each project

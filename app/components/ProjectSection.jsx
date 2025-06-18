@@ -33,9 +33,9 @@ const ProjectSection = ({ isHome }) => {
       <div className="max-w-[1280px] mx-auto py-20 max-sm:px-5">
         <div className="flex justify-between items-center max-sm:flex-col max-sm:items-start">
           <div className={`${isHome ? "" : "w-full text-center"}`}>
-            <h1 className="text-5xl text-secondary font-bold mb-4 animate__animated animate__fadeIn">
+            <h2 className="text-5xl text-secondary font-bold mb-4 animate__animated animate__fadeIn">
               Projects
-            </h1>
+            </h2>
             <p className="animate__animated animate__fadeIn">
               Discover my portfolio featuring a variety of projects.
             </p>

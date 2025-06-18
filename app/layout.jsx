@@ -48,6 +48,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="canonical" href="https://manankanani.in" />
         <Script
           id="ld-json-person"
           type="application/ld+json"
