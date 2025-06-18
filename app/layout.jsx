@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import { Poppins } from "next/font/google";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import Script from "next/script";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -14,7 +15,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Manan Kanani | Full Stack Developer in Mumbai",
   description:
-    "Full stack developer in Mumbai with 3+ years of experience, delivering 30+ web projects with strong UI/UX and robust backend solutions.",
+    "Full stack developer based in Mumbai with 3+ years of experience, delivered 30+ web projects with strong UI/UX and robust backend solutions.",
   openGraph: {
     type: "website",
     url: "https://www.manankanani.in",
@@ -46,6 +47,52 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          id="ld-json-person"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Manan Kanani",
+              url: "https://manankanani.in",
+              image: "https://manankanani.in/images/Main_pic.webp",
+              sameAs: [
+                "https://www.linkedin.com/in/manan-kanani/",
+                "https://github.com/MananKanani5/",
+                "https://www.instagram.com/m_a_n_a_n_02/",
+                "https://leetcode.com/manankanani/",
+              ],
+              jobTitle: "Full Stack Developer",
+              worksFor: {
+                "@type": "Organization",
+                name: "Freelancer",
+              },
+            }),
+          }}
+        />
+
+        <Script
+          id="ld-json-website"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Manan Kanani",
+              url: "https://manankanani.in",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://manankanani.in/search?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+      </head>
       <body className={poppins.className}>
         <GoogleAnalytics />
         <ScrollToTop />
