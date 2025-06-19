@@ -33,22 +33,13 @@ export default function SingleProject({ project }) {
             {project.previewLink !== "NA" && (
               <a
                 href={project.previewLink}
-                className="bg-[#510451] hover:bg-[#510451da] duration-300 w-fit max-sm:w-full max-sm:justify-center px-3 py-2 text-lighttext rounded-lg flex items-center gap-1"
+                className="bg-primary hover:bg-primaryHover duration-300 w-fit max-sm:w-full max-sm:justify-center px-3 py-2 text-lighttext rounded-lg flex items-center gap-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <RiGithubFill /> View on Preview
+                Live Preview <RiArrowRightUpLine />
               </a>
             )}
-
-            <a
-              href={project.previewLink}
-              className="bg-primary hover:bg-primaryHover duration-300 w-fit max-sm:w-full max-sm:justify-center px-3 py-2 text-lighttext rounded-lg flex items-center gap-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Preview <RiArrowRightUpLine />
-            </a>
           </div>
         </div>
 
