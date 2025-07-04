@@ -46,5 +46,9 @@ export default async function PortfolioDetails({ params }) {
   const awaitedParams = await params;
   const project = await getProject(awaitedParams.slug);
 
+  if (!project) {
+    notFound();
+  }
+
   return <SingleProject project={project} />;
 }
