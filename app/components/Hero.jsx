@@ -90,13 +90,14 @@ const Hero = () => {
 
           <Image
             className="z-40 relative max-sm:scale-110 animate__animated animate__fadeIn "
-            src="/images/heroImg.webp"
+            src="/images/heroImg.png"
             alt="hero_Main_img"
             width={678}
             height={558}
+            unoptimized={true}
           />
           <Image
-            className="absolute top-20 max-sm:hidden  right-0 opacity-70 animate__animated animate__fadeIn"
+            className="absolute top-20 max-sm:hidden right-0 opacity-70 animate__animated animate__fadeIn"
             src="/images/heroBgStyle.webp"
             width={909}
             height={1018}
