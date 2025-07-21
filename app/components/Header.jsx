@@ -64,7 +64,7 @@ const Header = () => {
           </Link>
           <a
             className="bg-primary hover:bg-primaryHover duration-300 px-5 py-2 rounded-xl"
-            href="https://drive.google.com/file/d/1Ju8Idw8lbUiY5sItZiyuMiqsHjlAOlMU/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nSBoX8pRFltfqzYA6lWZtvNp8CAe6_FE/view?usp=drive_link"
             onClick={closeMenu}
             target="_blank"
           >
