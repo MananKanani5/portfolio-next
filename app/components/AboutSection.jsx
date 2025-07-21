@@ -42,13 +42,8 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="animate__animated animate__fadeIn text-pretty text-center">
-            On a journey since February 2020, with a rich portfolio of 30+ web
-            projects. I continually refine my skills, ensuring each project
-            exceeds expectations. From architecting robust solutions to
-            implementing innovative features, I combine creativity and
-            functionality to deliver high-quality projects. <br />
-            When I’m not coding, I enjoy playing carrom, cricket, and watching
-            series.
+            On a journey since February 2020, building full-stack web applications and constantly evolving as a developer. I focus on writing clean code, crafting smooth user experiences, and building things that work well in the real world. <br/>
+When I’m not coding, I enjoy playing carrom, cricket, and watching series.
           </p>
         </div>
 
