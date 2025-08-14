@@ -51,7 +51,7 @@ const ProjectSection = ({ isHome }) => {
         </div>
 
         <div className="flex gap-5 mt-7 flex-wrap justify-start">
-          {Projects.map((project) => (
+          {[...Projects].reverse().map((project) => (
             <Project
               to={project.slug}
               key={project.id}
