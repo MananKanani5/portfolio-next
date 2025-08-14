@@ -18,7 +18,7 @@ const ProjectSection = ({ isHome }) => {
           throw new Error("Failed to fetch projects");
         }
         const result = await response.json();
-        setProjects(isHome ? result.slice(0, 3) : result);
+        setProjects(isHome ? result.slice(-3) : result);
       } catch (err) {
         console.error(err);
         setError(err.message);
