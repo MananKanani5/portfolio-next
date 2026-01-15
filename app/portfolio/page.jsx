@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 const PortfolioPage = () => {
-  return <ProjectSection />;
+  return <ProjectSection isHome={false} />;
 };
 
 export default PortfolioPage;
