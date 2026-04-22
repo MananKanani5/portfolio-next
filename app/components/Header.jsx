@@ -72,9 +72,10 @@ const Header = () => {
           </Link>
           <a
             className="bg-primary hover:bg-primaryHover duration-300 px-5 py-2 rounded-xl"
-            href="https://drive.google.com/file/d/1nSBoX8pRFltfqzYA6lWZtvNp8CAe6_FE/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1HjANFa43BbzdEr10es6t9ABqOeuSyKCE/view?usp=sharing"
             onClick={closeMenu}
             target="_blank"
+            aria-label="Download resume"
           >
             Resume
           </a>
