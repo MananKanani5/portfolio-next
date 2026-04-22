@@ -62,38 +62,9 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          {/* <Image
-            src={"/images/technologies/mongodb.jpg"}
-            alt="MongoDB"
-            width={65}
-            height={65}
-            className="absolute rounded-full right-[40%] top-[25%] animate__animated animate__pulse animate__infinite animate__slow max-sm:hidden z-50"
-          />
-          <Image
-            src={"/images/technologies/express.jpg"}
-            alt="Express.js"
-            width={70}
-            height={70}
-            className="absolute rounded-full right-[10%] top-[35%] animate__animated animate__pulse animate__infinite animate__slow max-sm:hidden z-50"
-          />
-          <Image
-            src={"/images/technologies/react.jpg"}
-            alt="React.js"
-            width={60}
-            height={60}
-            className="absolute rounded-full right-[45%] top-[55%] animate__animated animate__pulse animate__infinite animate__slow max-sm:hidden z-50"
-          />
-          <Image
-            src={"/images/technologies/nodejs.jpg"}
-            alt="Node.js"
-            width={65}
-            height={65}
-            className="absolute rounded-full right-[5%] top-[65%] animate__animated animate__pulse animate__infinite animate__slow max-sm:hidden z-50"
-          /> */}
-
           <Image
             className="z-40 relative max-sm:scale-110 animate__animated animate__fadeIn "
-            src="/images/heroImg.png"
+            src="/images/heroImg.webp"
             alt="hero_Main_img"
             width={678}
             height={558}
