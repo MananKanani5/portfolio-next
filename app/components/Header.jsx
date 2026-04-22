@@ -61,7 +61,7 @@ const Header = () => {
             href={"/portfolio"}
             onClick={closeMenu}
           >
-            Portfolio
+            Projects
           </Link>
           <Link
             className="hover:text-primaryHover duration-300 max-sm:w-full max-sm:py-2 max-sm:text-center"
