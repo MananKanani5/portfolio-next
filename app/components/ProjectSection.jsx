@@ -55,7 +55,8 @@ const ProjectSection = ({ isHome }) => {
             <Project
               to={project.slug}
               key={project.id}
-              className="w-[calc(33%-1.25rem)] max-w-[33%]"
+              title={project.title}
+              className="w-[calc(33%-1.25rem)] max-sm:w-full max-w-[33%]"
             >
               <img
                 className="animate__animated animate__fadeIn"

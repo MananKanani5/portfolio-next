@@ -21,7 +21,13 @@ const Header = () => {
           <span className="text-lighttext font-bold text-3xl z-[999]">MK.</span>
         </Link>
 
-        <button onClick={menuHandle} className="max-sm:block hidden z-[999]">
+        <button
+          onClick={menuHandle}
+          className="max-sm:block hidden z-[999]"
+          aria-label={isMenuOpen ? "Open navigation menu" : "Close navigation menu"}
+          aria-expanded={!isMenuOpen}
+          aria-controls="mobile-nav"
+        >
           {isMenuOpen ? (
             <RiMenu2Line className="text-lighttext" />
           ) : (
@@ -30,6 +36,8 @@ const Header = () => {
         </button>
 
         <nav
+          id="mobile-nav"
+          aria-label="Main navigation"
           className={`navbar flex gap-6 items-center text-lighttext max-sm:flex-col max-sm:fixed max-sm:bg-secondary max-sm:z-50 max-sm:w-full max-sm:h-screen max-sm:top-0 max-sm:pt-24 max-sm:left-0 duration-300 ${
             isMenuOpen ? "max-sm:translate-x-full" : "max-sm:translate-x-0"
           }`}
