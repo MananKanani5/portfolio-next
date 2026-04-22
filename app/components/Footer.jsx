@@ -3,8 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <>
-      <section className=" w-full z-40 relative bg-secondary p-5 animate__animated animate__fadeIn">
+    <footer className=" w-full z-40 relative bg-secondary p-5 animate__animated animate__fadeIn">
         <div className="max-w-[1280px] mx-auto  text-center">
           <h4 className="text-lighttext">
             Created with
@@ -14,8 +13,7 @@ const Footer = () => {
             by Manan Kanani
           </h4>
         </div>
-      </section>
-    </>
+      </footer>
   );
 };
 

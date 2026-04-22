@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <section className=" w-full bg-secondary sticky top-0 z-[999] max-sm:-mb-1 max-sm:p-0">
+    <header className=" w-full bg-secondary sticky top-0 z-[999] max-sm:-mb-1 max-sm:p-0">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between animate__animated animate__fadeInDown max-sm:p-5 py-5">
         <Link href={"/"} className="logo z-50">
           <h2 className="text-lighttext font-bold text-3xl z-[999]">MK.</h2>
@@ -29,7 +29,7 @@ const Header = () => {
           )}
         </button>
 
-        <div
+        <nav
           className={`navbar flex gap-6 items-center text-lighttext max-sm:flex-col max-sm:fixed max-sm:bg-secondary max-sm:z-50 max-sm:w-full max-sm:h-screen max-sm:top-0 max-sm:pt-24 max-sm:left-0 duration-300 ${
             isMenuOpen ? "max-sm:translate-x-full" : "max-sm:translate-x-0"
           }`}
@@ -70,9 +70,9 @@ const Header = () => {
           >
             Resume
           </a>
-        </div>
+        </nav>
       </div>
-    </section>
+    </header>
   );
 };
 

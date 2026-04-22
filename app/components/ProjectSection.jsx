@@ -63,9 +63,9 @@ const ProjectSection = ({ isHome }) => {
                 src={project.imgLink}
                 alt={project.title}
               />
-              <h1 className="text-center text-xl text-lighttext mb-2">
+              <h3 className="text-center text-xl text-lighttext mb-2">
                 {project.title}
-              </h1>
+              </h3>
             </Project>
           ))}
         </div>

@@ -95,6 +95,7 @@ const Hero = () => {
             width={678}
             height={558}
             unoptimized={true}
+            priority={true}
           />
           <Image
             className="absolute top-20 max-sm:hidden right-0 opacity-70 animate__animated animate__fadeIn"

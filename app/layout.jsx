@@ -18,11 +18,11 @@ export const metadata = {
     "Full stack developer based in Mumbai with 3+ years of experience, delivered 30+ web projects with strong UI/UX and robust backend solutions.",
   openGraph: {
     type: "website",
-    url: "https://www.manankanani.in",
+    url: "https://manankanani.in",
     title: "Manan Kanani - Full Stack Developer",
     description:
       "Full stack developer in Mumbai with 3+ years of experience, delivering 30+ web projects with strong UI/UX and robust backend solutions.",
-    images: ["https://www.manankanani.in/images/Main_pic.webp"],
+    images: ["https://manankanani.in/images/Main_pic.webp"],
     siteName: "Manan Kanani",
   },
   twitter: {
@@ -62,10 +62,9 @@ export default function RootLayout({ children }) {
         </Script>
 
         <link rel="canonical" href="https://manankanani.in" />
-        <Script
+        <script
           id="ld-json-person"
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -88,21 +87,15 @@ export default function RootLayout({ children }) {
           }}
         />
 
-        <Script
+        <script
           id="ld-json-website"
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Manan Kanani",
               url: "https://manankanani.in",
-              potentialAction: {
-                "@type": "SearchAction",
-                target: "https://manankanani.in/search?q={search_term_string}",
-                "query-input": "required name=search_term_string",
-              },
             }),
           }}
         />

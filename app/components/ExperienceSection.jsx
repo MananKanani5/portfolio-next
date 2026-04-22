@@ -58,9 +58,9 @@ const ExperienceSection = () => {
   return (
     <section className="w-full relative z-40">
       <div className="max-w-[1280px] mx-auto py-20 max-sm:px-5">
-        <h1 className="text-5xl text-center text-secondary font-bold mb-14 animate__animated animate__fadeIn ">
+        <h2 className="text-5xl text-center text-secondary font-bold mb-14 animate__animated animate__fadeIn ">
           Experience
-        </h1>
+        </h2>
         {expirence.map((exp, index) => (
           <Accordians
             key={index}
