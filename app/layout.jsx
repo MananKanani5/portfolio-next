@@ -22,7 +22,14 @@ export const metadata = {
     title: "Manan Kanani - Full Stack Developer",
     description:
       "Full stack developer in Mumbai with 3+ years of experience, delivering 30+ web projects with strong UI/UX and robust backend solutions.",
-    images: ["https://manankanani.in/images/Main_pic.webp"],
+    images: [
+      {
+        url: "https://manankanani.in/images/Main_pic.webp",
+        width: 1200,
+        height: 630,
+        alt: "Manan Kanani - Full Stack Developer",
+      },
+    ],
     siteName: "Manan Kanani",
   },
   twitter: {
@@ -30,8 +37,7 @@ export const metadata = {
     title: "Manan Kanani - Full Stack Developer",
     description:
       "Full stack developer in Mumbai with 3+ years of experience, delivering 30+ web projects with strong UI/UX and robust backend solutions.",
-    site: "https://www.manankanani.in",
-    images: ["https://www.manankanani.in/images/Main_pic.webp"],
+    images: ["https://manankanani.in/images/Main_pic.webp"],
   },
   keywords: [
     "MERN Stack Developer",
@@ -41,7 +47,7 @@ export const metadata = {
     "Web Developer Portfolio",
     "Frontend Developer",
   ],
-  authors: [{ name: "Manan Kanani", url: "https://www.manankanani.in" }],
+  authors: [{ name: "Manan Kanani", url: "https://manankanani.in" }],
 };
 
 export default function RootLayout({ children }) {

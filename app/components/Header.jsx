@@ -18,7 +18,7 @@ const Header = () => {
     <header className=" w-full bg-secondary sticky top-0 z-[999] max-sm:-mb-1 max-sm:p-0">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between animate__animated animate__fadeInDown max-sm:p-5 py-5">
         <Link href={"/"} className="logo z-50">
-          <h2 className="text-lighttext font-bold text-3xl z-[999]">MK.</h2>
+          <span className="text-lighttext font-bold text-3xl z-[999]">MK.</span>
         </Link>
 
         <button onClick={menuHandle} className="max-sm:block hidden z-[999]">

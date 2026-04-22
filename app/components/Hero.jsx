@@ -33,6 +33,7 @@ const Hero = () => {
               className="text-lighttext hover:scale-110 duration-300 "
               href="https://github.com/MananKanani5/"
               target="_blank"
+              aria-label="Visit Manan Kanani's GitHub profile"
             >
               <RiGithubFill />
             </a>
@@ -40,6 +41,7 @@ const Hero = () => {
               className="text-lighttext hover:scale-110 duration-300 "
               href="https://www.linkedin.com/in/manan-kanani/"
               target="_blank"
+              aria-label="Visit Manan Kanani's LinkedIn profile"
             >
               <RiLinkedinBoxFill />
             </a>
@@ -47,6 +49,7 @@ const Hero = () => {
               className="text-lighttext hover:scale-110 duration-300 "
               href="https://leetcode.com/manankanani/"
               target="_blank"
+              aria-label="Visit Manan Kanani's LeetCode profile"
             >
               <Image
                 src="/icons/leetcode.svg"

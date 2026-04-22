@@ -125,6 +125,7 @@ const ContactSection = () => {
                 href="https://github.com/MananKanani5/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Manan Kanani's GitHub profile"
               >
                 <RiGithubFill />
               </a>
@@ -133,6 +134,7 @@ const ContactSection = () => {
                 href="https://www.linkedin.com/in/manan-kanani/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Manan Kanani's LinkedIn profile"
               >
                 <RiLinkedinBoxFill />
               </a>
@@ -141,6 +143,7 @@ const ContactSection = () => {
                 href="https://leetcode.com/manankanani/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Manan Kanani's LeetCode profile"
               >
                 <Image
                   src="/icons/leetcodeColor.svg"
@@ -155,6 +158,7 @@ const ContactSection = () => {
                 href="https://www.instagram.com/m_a_n_a_n_02/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Manan Kanani's Instagram profile"
               >
                 <RiInstagramFill />
               </a>
@@ -163,6 +167,7 @@ const ContactSection = () => {
                 href="https://www.facebook.com/manan.kanani.1"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Manan Kanani's Facebook profile"
               >
                 <RiFacebookFill />
               </a>

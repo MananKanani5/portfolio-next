@@ -39,6 +39,9 @@ export async function generateMetadata({ params }) {
       "Full Stack Developer",
       "Web Developer Portfolio",
     ],
+    alternates: {
+      canonical: `https://manankanani.in/portfolio/${awaitedParams.slug}`,
+    },
   };
 }
 

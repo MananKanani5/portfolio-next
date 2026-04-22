@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "404 - Page Not Found | Manan Kanani",
+  description: "The page you are looking for does not exist.",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
 const PageNotFound = () => {
   return (
     <section className=" w-full relative bg-lighttext z-40 ">
