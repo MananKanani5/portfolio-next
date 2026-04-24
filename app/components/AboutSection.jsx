@@ -35,15 +35,19 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="w-full relative bg-lighttext z-40">
+    <section className="w-full relative bg-lighttext z-40" data-theme="light">
       <div className="max-w-[1280px] mx-auto py-20 max-sm:px-5">
         <div className="aboutDetails">
           <h2 className="text-5xl text-center text-secondary font-bold mb-4 animate__animated animate__fadeIn">
             About Me
           </h2>
           <p className="animate__animated animate__fadeIn text-pretty text-center">
-            On a journey since February 2020, building full-stack web applications and constantly evolving as a developer. I focus on writing clean code, crafting smooth user experiences, and building things that work well in the real world. <br/>
-When I’m not coding, I enjoy playing carrom, cricket, and watching series.
+            On a journey since February 2020, building full-stack web
+            applications and constantly evolving as a developer. I focus on
+            writing clean code, crafting smooth user experiences, and building
+            things that work well in the real world. <br />
+            When I’m not coding, I enjoy playing carrom, cricket, and watching
+            series.
           </p>
         </div>
 

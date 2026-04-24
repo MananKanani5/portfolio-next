@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import { Poppins } from "next/font/google";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 import Script from "next/script";
+import Navbar from "./components/new/Navbar";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -118,7 +119,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <GoogleAnalytics />
         <ScrollToTop />
-        <Header />
+        <Navbar />
         <main id="main-content">
           {children}
         </main>

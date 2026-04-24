@@ -3,10 +3,10 @@
 
 @theme {
   --color-primary: #003fae;
-  --color-secondary: #0c182d;
+  --color-secondary: #0a1426;
   --color-lighttext: #f5f5f5;
-  --color-darktext: #0c182d;
-  --color-primaryHover: #084fcb;
+  --color-darktext: #202020;
+  --color-primaryHover: #03307c;
 }
 
 html,

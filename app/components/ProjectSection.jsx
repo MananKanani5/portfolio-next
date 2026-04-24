@@ -29,7 +29,7 @@ const ProjectSection = ({ isHome }) => {
   }, [isHome]);
 
   return (
-    <section className=" w-full relative  z-40">
+    <section className=" w-full relative  z-40" data-theme="light">
       <div className="max-w-[1280px] mx-auto py-20 max-sm:px-5">
         <div className="flex justify-between items-center max-sm:flex-col max-sm:items-start">
           <div className={`${isHome ? "" : "w-full text-center"}`}>

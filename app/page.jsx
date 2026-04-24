@@ -1,4 +1,4 @@
-import Hero from "./components/Hero";
+import Hero from "./components/new/Hero";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import "animate.css";
