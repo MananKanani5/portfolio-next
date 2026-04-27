@@ -18,7 +18,7 @@ const Hero = () => {
       data-theme="dark"
     >
       <div className="container mx-auto relative rounded-full flex flex-col  h-full justify-between items-center gap-10 max-w-[1280px] overflow-visible">
-        <div className="flex flex-col gap-8 z-10 items-center justify-center pt-[12%]">
+        <div className="flex flex-col gap-8 z-10 items-center justify-center pt-[50%] md:pt-[12%]">
         {/* Pill for available for freelance */}
           <div className="flex items-center gap-3 px-5 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] w-fit -mb-3 z-10 animate__animated animate__fadeInUp">
             <div className="relative flex items-center justify-center">
@@ -33,7 +33,7 @@ const Hero = () => {
 
           {/* Hero Content */}
           <div className="flex flex-col gap-4 items-center justify-center z-10 text-center">
-            <h1 className="text-4xl lg:text-6xl text-lighttext font-bold animate__animated animate__fadeInUp">
+            <h1 className="text-[34px] lg:text-6xl text-lighttext font-bold animate__animated animate__fadeInUp">
               I'm Manan Kanani
             </h1>
             <h2 className="text-xl lg:text-2xl text-lighttext font-medium animate__animated animate__fadeInUp">
@@ -47,7 +47,7 @@ const Hero = () => {
           alt="hero_Main_img"
           width={500}
           height={500}
-          className="w-2/6 max-sm:h-[300px] object-cover z-10 animate__animated animate__fadeInUp"
+          className="md:w-2/6 max-sm:h-[300px] object-cover z-10 animate__animated animate__fadeInUp"
         />    
 
         {/* Button for Projects and About Me */}
@@ -70,7 +70,7 @@ const Hero = () => {
 
 
         {/* Social Links */}
-        <div className="absolute left-5 right-0 w-fit bottom-20 flex flex-col items-center gap-6 z-10 animate__animated animate__fadeInUp">
+        <div className="absolute left-5 right-0 w-fit bottom-50 md:bottom-20 flex flex-col items-center gap-6 z-10 animate__animated animate__fadeInUp">
         <a
               className="text-lighttext hover:scale-110 duration-300 "
               href="https://github.com/MananKanani5/"
@@ -107,7 +107,7 @@ const Hero = () => {
         </div>
 
 
-        <Link href="#about" className="absolute bottom-30 -right-6 w-fit h-fit flex gap-2 items-center z-10 animate__animated animate__fadeInUp rotate-90 text-lighttext text-sm tracking-wide group">
+        <Link href="#about" className="absolute bottom-61 md:bottom-30 -right-6 w-fit h-fit flex gap-2 items-center z-10 animate__animated animate__fadeInUp rotate-90 text-lighttext text-sm tracking-wide group">
           Scroll Down
           <RiArrowRightLine className="text-lighttext group-hover:translate-x-1 duration-300" />
         </Link>
@@ -118,7 +118,7 @@ const Hero = () => {
           alt="bgblur_img"
           width={800}
           height={500}
-          className="absolute -bottom-2 left-0 right-0 w-full z-0 animate__animated animate__fadeIn animate__slower"
+          className="absolute -bottom-2 left-0 right-0 w-full  z-0 animate__animated animate__fadeIn animate__slower h-full"
         />
     </section>
   );
