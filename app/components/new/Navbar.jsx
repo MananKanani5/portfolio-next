@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="max-w-[90%] lg:max-w-7xl container mx-auto fixed top-7 left-0 right-0 z-[999] rounded-full bg-white/10 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] lg:pl-8 lg:pr-3 px-5 animate__animated animate__fadeInDown py-3 flex items-center justify-between">
+      <header className="max-w-[90%] lg:max-w-7xl container mx-auto fixed top-6 left-0 right-0 z-[999] rounded-full bg-white/10 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] lg:pl-8 lg:pr-2 px-5 animate__animated animate__fadeInDown py-2 flex items-center justify-between">
         <Link href={"/"} className="logo z-50">
           <span
             className={`font-bold text-3xl z-[999] ${theme === "light" ? "text-darktext" : "text-lighttext"} duration-300`}
@@ -89,7 +89,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <a
-            className={`bg-primary hover:bg-primaryHover text-lighttext duration-300 lg:px-7 lg:py-3 px-5 py-2 rounded-full ${theme === "light" ? "bg-darktext text-lighttext" : "bg-lighttext text-darktext"}`}
+            className={`bg-primary hover:bg-primaryHover text-lighttext duration-300 lg:px-7 lg:py-2.5 px-5 py-2 rounded-full ${theme === "light" ? "bg-darktext text-lighttext" : "bg-lighttext text-darktext"}`}
             href="https://drive.google.com/file/d/1HjANFa43BbzdEr10es6t9ABqOeuSyKCE/view?usp=sharing"
             onClick={closeMenu}
             target="_blank"

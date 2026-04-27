@@ -13,6 +13,7 @@ html,
 body {
   overflow-x: hidden;
   font-family: inherit;
+  scroll-behavior: smooth;
 }
 
 .no-scroll {
