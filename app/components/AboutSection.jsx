@@ -35,7 +35,11 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="w-full relative bg-lighttext z-40" data-theme="light" id="about">
+    <section
+      className="w-full relative bg-lighttext z-40"
+      data-theme="light"
+      id="about"
+    >
       <div className="max-w-[1280px] mx-auto py-20 max-sm:px-5">
         <div className="aboutDetails">
           <h2 className="text-5xl text-center text-secondary font-bold mb-4 animate__animated animate__fadeIn">

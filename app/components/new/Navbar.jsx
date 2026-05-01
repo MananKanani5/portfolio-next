@@ -69,11 +69,6 @@ const Navbar = () => {
       label: "Contact Me",
       href: "/contact",
     },
-    {
-      label: "Resume",
-      href: "https://drive.google.com/file/d/1eWPQd2v9pAj5cUtFIP5CeJcroQ9ydahY/view?usp=sharing",
-      external: true,
-    },
   ];
 
   return (
@@ -92,31 +87,16 @@ const Navbar = () => {
           aria-label="Main navigation"
           className={`flex items-center text-lighttext gap-10  ${isMenuOpen ? "max-sm:flex" : "max-sm:hidden"} max-sm:absolute max-sm:bg-white/10 max-sm:flex-col max-sm:w-full max-sm:left-0 max-sm:top-18 max-sm:rounded-3xl max-sm:backdrop-blur-xl max-sm:border max-sm:border-white/10 max-sm:shadow-[0_4px_30px_rgba(0,0,0,0.1)] max-sm:gap-5 max-sm:z-50`}
         >
-          {menuItems
-            .filter((item) => !(item.external && isLargeScreen))
-            .map((item) =>
-              item.external ? (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  onClick={closeMenu}
-                  className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
-                >
-                  {item.label}
-                </a>
-              ) : (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={closeMenu}
-                  className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
-                >
-                  {item.label}
-                </Link>
-              ),
-            )}
+          {menuItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={closeMenu}
+              className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors hover:text-primaryHover ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
+            >
+              {item.label}
+            </Link>
+          ))}
         </nav>
 
         <div className="flex items-center gap-3">

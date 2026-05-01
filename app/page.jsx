@@ -2,6 +2,7 @@ import Hero from "./components/new/Hero";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import "animate.css";
+import AboutMe from "./components/new/AboutMe";
 
 export const metadata = {
   title: "Manan Kanani | Full Stack Developer",
@@ -26,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <AboutSection />
+      <AboutMe />
       <ProjectSection isHome={true} />
     </>
   );
