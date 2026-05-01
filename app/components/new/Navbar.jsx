@@ -95,28 +95,28 @@ const Navbar = () => {
           {menuItems
             .filter((item) => !(item.external && isLargeScreen))
             .map((item) =>
-            item.external ? (
-              <a
-                key={item.href}
-                href={item.href}
-                target="_blank"
-                rel="noreferrer"
-                onClick={closeMenu}
-                className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
-              >
-                {item.label}
-              </a>
-            ) : (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={closeMenu}
-                className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
-              >
-                {item.label}
-              </Link>
-            )
-          )}
+              item.external ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={closeMenu}
+                  className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={closeMenu}
+                  className={`duration-300 max-sm:w-full max-sm:py-3 max-sm:px-4 max-sm:text-center max-sm:rounded-lg max-sm:hover:bg-white/10 max-sm:transition-colors ${theme === "light" ? "text-darktext" : "text-lighttext"}`}
+                >
+                  {item.label}
+                </Link>
+              ),
+            )}
         </nav>
 
         <div className="flex items-center gap-3">
@@ -133,14 +133,20 @@ const Navbar = () => {
           <button
             onClick={menuHandle}
             className="max-sm:block hidden z-[999]"
-            aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-label={
+              isMenuOpen ? "Close navigation menu" : "Open navigation menu"
+            }
             aria-expanded={isMenuOpen}
             aria-controls="mobile-nav"
           >
             {!isMenuOpen ? (
-              <RiMenu2Line className={` ${theme === "light" ? "text-darktext" : "text-lighttext"} duration-300`} />
+              <RiMenu2Line
+                className={` ${theme === "light" ? "text-darktext" : "text-lighttext"} duration-300`}
+              />
             ) : (
-              <RiCloseLine className={` ${theme === "light" ? "text-darktext" : "text-lighttext"} duration-300`} />
+              <RiCloseLine
+                className={` ${theme === "light" ? "text-darktext" : "text-lighttext"} duration-300`}
+              />
             )}
           </button>
         </div>
