@@ -14,11 +14,11 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section
-      className="h-[100dvh] w-full bg-secondary px-5 pb-0 overflow-hidden"
+      className="h-[100svh] w-full bg-secondary px-5 pb-0 overflow-hidden z-0"
       data-theme="dark"
     >
       <div className="container mx-auto relative rounded-full flex flex-col  h-full justify-center items-center gap-10 max-w-[1280px] overflow-visible">
-        <div className="flex flex-col gap-8 z-10 items-center justify-center pb-[50%] md:pb-[15%]">
+        <div className="flex flex-col gap-10 z-10 items-center justify-center pb-[60%] md:pb-[17%]">
           {/* Pill for available for freelance */}
           <div className="flex items-center gap-3 px-5 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] w-fit -mb-3 z-10 animate__animated animate__fadeInUp">
             <div className="relative flex items-center justify-center">
@@ -84,7 +84,7 @@ const Hero = () => {
           alt="hero_Main_img"
           width={500}
           height={500}
-          className="absolute bottom-0 w-full md:w-[50%] lg:w-[40%] xl:w-[33%] object-cover z-10 animate__animated animate__fadeInUp"
+          className="absolute bottom-0 w-full sm:w-[50%] md:w-[40%] lg:w-[30%] xl:w-[29%] object-cover z-10 animate__animated animate__fadeInUp"
         />
 
         {/* Button for Projects and About Me */}
@@ -119,7 +119,7 @@ const Hero = () => {
         alt="bgblur_img"
         width={800}
         height={500}
-        className="absolute -bottom-2 left-0 right-0 w-full  z-0 animate__animated animate__fadeIn animate__slower h-full"
+        className="absolute -bottom-[7px] left-0 right-0 w-full  z-0 animate__animated animate__fadeIn animate__slower h-full"
       />
     </section>
   );

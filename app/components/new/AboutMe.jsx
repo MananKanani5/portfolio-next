@@ -26,8 +26,9 @@ const AboutMe = () => {
 
   return (
     <section
-      className="container mx-auto relative flex flex-col md:flex-row h-full justify-center items-center gap-15 md:gap-28 max-w-[1280px] overflow-hidden py-24 md:py-36 max-sm:px-5"
+      className="container mx-auto relative flex flex-col md:flex-row h-full justify-center items-center gap-15 md:gap-28 max-w-[1280px] overflow-hidden py-24 md:py-36 max-sm:px-5 z-10 bg-white"
       data-theme="light"
+      id="about"
     >
       <div className="w-full md:w-1/2">
         <h2 className="font-bold text-4xl mb-8">About Me</h2>
