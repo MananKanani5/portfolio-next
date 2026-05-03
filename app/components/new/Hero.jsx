@@ -84,7 +84,7 @@ const Hero = () => {
           alt="hero_Main_img"
           width={500}
           height={500}
-          className="absolute bottom-0 w-full md:w-[50%] lg:w-[40%] xl:w-[30%] object-cover z-10 animate__animated animate__fadeInUp"
+          className="absolute bottom-0 w-full md:w-[50%] lg:w-[40%] xl:w-[33%] object-cover z-10 animate__animated animate__fadeInUp"
         />
 
         {/* Button for Projects and About Me */}
